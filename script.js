@@ -13,7 +13,7 @@ class Person {
 }
 
 class Student extends Person {
-	constructor{
+	constructor(){
 		super(name,age);
 	}
 	study(name){
@@ -22,7 +22,7 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
-	constructor{
+	constructor(){
 		super(name,age);
 	}
 teach(name){
